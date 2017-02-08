@@ -14,7 +14,7 @@ int main(int argc, const char * argv[]) {
         
         Box *myBox = [[Box alloc]initWithHeight:(8.0) andWithWidth:(7.0) andWithLength:(6.5)];
         
-        NSLog(@"%f", myBox.getVolume);
+        NSLog(@"%f", [myBox getVolume]);
         
         Box *newBox = [[Box alloc]initWithHeight:10 andWithWidth:10 andWithLength:10];
         
