@@ -46,7 +46,7 @@
         
     }else{
         
-        NSLog(@"These boxes cannot fit inside one another!");
+        NSLog(@"These boxes are the same size!!!!!!! YOU TRICKED ME");
         
     }
     
